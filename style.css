@@ -11,6 +11,8 @@ body {
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
+/* Import a classy serif font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
 
 .navbar {
   display: flex;
@@ -30,9 +32,11 @@ body {
 }
 
 .logo-text {
-  font-family: 'Italiana', serif;
-  font-size: 3rem;
-  letter-spacing: 0.15em;
+  font-family: 'Playfair Display', 'Cormorant Garamond', serif;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+  font-style: italic;
+  text-transform: uppercase;
   color: #fff;
   text-shadow: 0 2px 12px rgba(0,0,0,0.18);
   font-weight: 400;
