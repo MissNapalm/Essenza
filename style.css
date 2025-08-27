@@ -89,9 +89,13 @@ body {
 }
 
 .hero-overlay h1 {
+  font-family: 'Cormorant Garamond', serif;
   font-size: 4.2em;
+  font-weight: 400;
   color: white;
   text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+  letter-spacing: 0.08em;
+  font-style: normal;
 }
 
 .cta-button {
